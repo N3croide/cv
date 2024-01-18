@@ -13,13 +13,15 @@
     background-size: cover;
     position: relative;
     margin-top: 10px;
+
     
 }
 .info{
     border: 2px solid black;
-    margin: 0 auto;
-    margin: 10px;
+    margin: 5px;
+    height: 450px;
 }
+
 .principal{
 
     background-color: burlywood;
@@ -42,7 +44,7 @@
     margin-right:0px;
     padding-left:0px;
     padding-right:0px;
-    border: 1px solid black;
+
 }
 .inner{
     margin: 0px
@@ -52,4 +54,24 @@
 .col3{
     padding: 2px;
     margin: 2px;
+}
+p,
+h1{
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.midcol,
+.dercol{
+    border: 2px solid black;
+    height: 926px;
+    margin: 5px;
+}
+.skills{
+    border: 2px solid black;
+    height: 245px;
+    margin: 5px;
 }
