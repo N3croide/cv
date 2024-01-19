@@ -4,12 +4,11 @@
 
 .foto{
     border: 1px solid black;
-    width: 50%;
-    height: 15%;
-    border-radius: 50%;
+    width: 32%;
+    height: 13%;
     margin: 0 auto;
-    background-image: url("../images/foto.jpeg");
-    background-size: cover;
+    background-image: url("../images/foto.png");
+    background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
 
@@ -93,4 +92,13 @@ hr{
 }
 .referencias{
     margin-top: 60%;
+}
+td{
+    text-align: center;
+    margin-left: 20px;
+}
+.logos{
+    height: 30px;
+    width: 30px;
+    margin-right: 50px;
 }
