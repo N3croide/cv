@@ -5,7 +5,8 @@
 .foto{
     max-width: 60%;
     border: 2px solid black;
-    height:20%;
+    height:20vw;
+    width: auto;
     border-radius: 50%;
     margin: 0 auto;
     padding: 10px;
@@ -19,15 +20,15 @@
 .info{
     border: 2px solid black;
     margin: 5px;
-    height: 450px;
+    height: 40%;
 }
 
 .principal{
 
     background-color: burlywood;
     border: 2px solid black;
-    height: 98vh;
-    width: 90vh;
+    height: 100vh;
+    width: 100vh;
     margin: auto;
     box-sizing: border-box;
     padding: 2px;
@@ -46,19 +47,10 @@
     padding-right:0px;
 
 }
-.inner{
-    margin: 0px
-}
-.col1,
-.col2,
-.col3{
-    padding: 2px;
-    margin: 2px;
-}
 p,
 h1{
     text-align: center;
-
+    font-size: 100%;
 }
 a{
     text-decoration: none;
@@ -67,11 +59,18 @@ a{
 .midcol,
 .dercol{
     border: 2px solid black;
-    height: 926px;
+    height: auto;
     margin: 5px;
 }
 .skills{
     border: 2px solid black;
-    height: 245px;
+    height: 33%;
+    width: auto;
     margin: 5px;
+}
+br{
+size: 100%;
+}
+p{
+    font-size: 100%;
 }
