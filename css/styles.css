@@ -3,35 +3,34 @@
 }
 
 .foto{
-    max-width: 60%;
-    border: 2px solid black;
-    height:20vw;
-    width: auto;
+    border: 1px solid black;
+    width: 50%;
+    height: 15%;
     border-radius: 50%;
     margin: 0 auto;
-    padding: 10px;
     background-image: url("../images/foto.jpeg");
     background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
-    margin-top: 10px;
 
     
 }
 .info{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 5px;
     height: 40%;
 }
 
 .principal{
 
-    background-color: burlywood;
+    background-color: #c8dfdc;
     border: 2px solid black;
-    height: 100vh;
+    padding: 4px;
+    height: 110vh;
     width: 100vh;
     margin: auto;
     box-sizing: border-box;
-    padding: 2px;
+    
 }
 .iz,
 .cent,
@@ -48,7 +47,8 @@
 
 }
 p,
-h1{
+h1,
+h2{
     text-align: center;
     font-size: 100%;
 }
@@ -57,20 +57,40 @@ a{
     color: black;
 }
 .midcol,
-.dercol{
-    border: 2px solid black;
-    height: auto;
+.dercol,
+.izCol{
+    height: 97.5%;
     margin: 5px;
+    padding: 5px;
+    background-color: #F6F4EB;
 }
 .skills{
-    border: 2px solid black;
     height: 33%;
     width: auto;
-    margin: 5px;
 }
 br{
 size: 100%;
 }
 p{
     font-size: 100%;
+}
+.javaLogo,
+.sqlLogo,
+.estrella,
+.pythonLogo{
+    height: 30%;
+    width: 70%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.stackTecnologico{
+    margin-top: 40%;
+}
+hr{
+    border: 1px solid black;
+    width: 80%;
+}
+.referencias{
+    margin-top: 60%;
 }
